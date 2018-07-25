@@ -22,6 +22,16 @@ Start API
 To **start** the API run:
 ::
     make start
+    
+Example curl
+--------
+
+To get a response use the example curl in another terminal:
+::
+    make start
+
+curl -X POST localhost/crt/v2 -d '{"startTimestamp" : "2016-01-03 13:55:00","endTimestamp" : "2019-01-04 13:55:00","aggregation" : 60}'
+
 
 Testing
 -------
