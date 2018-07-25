@@ -8,6 +8,7 @@ Dependencies
 
 * Python >= 3.5, virtualenv
 * Make
+* curl
 
 Building
 --------
