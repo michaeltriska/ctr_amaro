@@ -21,7 +21,7 @@ The typical application is structured in submodules:
 
 class Application(tornado.web.Application):
     def __init__(self):
-        handlers = [(r"/api/v1/cars", BusinessAnalysisHandler)]
+        handlers = [(r"/crt/v2", BusinessAnalysisHandler)]
         tornado.web.Application.__init__(self, handlers)
 
 def main():
